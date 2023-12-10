@@ -1,16 +1,16 @@
-## ID Card Generation System
+# ID Card Generation System
 
-# Objective:
+### Objective:
 The ID Card Generation System is a Python script designed to automate the creation of personalized identification cards. The system takes input from a CSV file containing details such as name, job title, ID number, email, mobile number, photo path, and validity period. It then uses this information to generate visually appealing ID cards with embedded barcodes for efficient identification, adhering to a template size of 54x85.
 
 
-# Dependencies:
+### Dependencies:
 - Pillow (PIL): Image processing library for handling image-related tasks.
 - python-barcode: Library for creating barcodes.
 - pandas: Data manipulation library for reading and processing CSV data.
 
   
-# Key Features:
+### Key Features:
 1. Customizable Templates: The system utilizes customizable ID card templates with dimensions of 54x85, allowing users to design the layout and appearance of the ID cards according to their preferences.
 
 2. Barcode Integration: Each ID card includes a unique barcode generated from the ID number. Barcodes facilitate quick and accurate scanning for identification purposes.
@@ -24,7 +24,7 @@ The ID Card Generation System is a Python script designed to automate the creati
 6. Batch Processing: The script supports batch processing, allowing users to generate multiple ID cards in a single run based on the information provided in the CSV file.
 
 
-# Usage:
+### Usage:
 1. Data Input: Users provide input details through a CSV file containing information for each ID card recipient.
 
 2. Template Configuration: Customize the ID card template and font styles according to specific design requirements, keeping in mind the template size of 54x85.
